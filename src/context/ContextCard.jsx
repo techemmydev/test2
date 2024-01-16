@@ -11,7 +11,7 @@ const ContextCard = ({ children }) => {
     cvv: "",
   });
 
-  const [people, setPeople] = useState([]);
+  const [people, setPeople] = useState();
 
   const valueToBePassed = {
     person: person,
